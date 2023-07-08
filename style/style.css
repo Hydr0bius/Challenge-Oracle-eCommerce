@@ -186,3 +186,30 @@
     transition: 0.3s;
   }
   
+  @media (max-width:812px){
+    .container{
+      width: 30%;
+      min-width: 150px;
+    }
+    .container span{
+      font-size: 13px;
+    }
+    .FeaturedConImg p{
+      font-size: 10px;
+      font-weight: bold;
+    }
+  }
+  @media (max-width:477px){
+    .section-p1{
+      padding: 40px 20px;
+    }
+    .containerFeaturedBox{
+      flex-direction: column;
+    }
+    .containerFeaturedBox .container{
+      width: 100%;
+    }
+    .productGeneral .pro{
+      width: 100%;
+    }
+  }
