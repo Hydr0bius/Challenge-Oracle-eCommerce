@@ -19,3 +19,17 @@
     color: #fff;
     border-radius: 4px;
 }
+
+.section-p1{
+    padding: 40px 200px;
+}
+@media (max-width:1030px){
+    .section-p1{
+        padding: 40px 100px;
+    }   
+}
+@media (max-width:768px){
+    .section-p1{
+        padding: 40px 20px;
+    }   
+}
