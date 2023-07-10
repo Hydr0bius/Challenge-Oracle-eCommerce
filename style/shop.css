@@ -1,0 +1,21 @@
+.post-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem;
+}
+.filter-item{
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 4px 10px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.filter-item:hover,
+.active-filter{
+    background: #004e92;
+    color: #fff;
+    border-radius: 4px;
+}
