@@ -38,35 +38,40 @@
     </header>
 
     <section class="login">
-        <h1>Login</h1>
-            <form action="" class="login_form" id="login_form">
-            <!-- email -----------------------------------------------s -->
-                <div class="form_grupo">
-                    <label for="email">Email</label>
-                    <div class="form_grupo_input">
-                        <i class="fa-regular fa-envelope"></i>
-                        <input type="email" name="email" id="email" placeholder="Email">
-                        <i class="form_validacion_estado fa-solid fa-circle-xmark"></i>
+        <div class="login_inside">
+            <div class="login-img"></div>
+                <form action="" class="login_form" id="login_form">
+                <!-- email -----------------------------------------------s -->
+                    <div class="form_grupo">
+                        <label for="email">Email</label>
+                        <div class="form_grupo_input">
+                            <input class="form_input" type="email" name="email" id="email" placeholder="Email">
+                            <i class="form_validacion_estado fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <p class="form_input_error">It can only contain letters, numbers, periods, hyphens, and underscores.</p>
                     </div>
-                    <p class="form_input_error">It can only contain letters, numbers, periods, hyphens, and underscores.</p>
-                </div>
-            <!-- password ------------------------------------------ -->
-                <div class="form_grupo">
-                    <label for="password">Password</label>
-                    <div class="form_grupo_input">
-                        <i class="fa-solid fa-lock"></i>
-                        <input type="password" name="password" id="password" placeholder="password">
-                        <i class="form_validacion_estado fa-solid fa-circle-xmark"></i>
+                <!-- password ------------------------------------------ -->
+                    <div class="form_grupo">
+                        <label for="password">Password</label>
+                        <div class="form_grupo_input">
+                            <input class="form_input" type="password" name="password" id="password" placeholder="password">
+                            <i class="form_validacion_estado fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <p class="form_input_error">It can only contain letters, numbers, periods, hyphens, and underscores.</p>
                     </div>
-                    <p class="form_input_error">It can only contain letters, numbers, periods, hyphens, and underscores.</p>
-                </div>
-                <div class="form_grupo form_grupo_btn_enviar">
-                    <button class="contacto_btn" type="submit">Login</button>
-                    <p class="form_mensaje_exito" id="form_mensaje_exito">
-                        The form has been sent successfully
-                    </p>
-                </div>
-            </form>
+                    <!-- advertencia y boton -->
+                    <div class="form_mensaje" id="form_mensaje">
+                        <p><i class="fa-solid fa-triangle-exclamation"></i><b> Error:</b>
+                            Please fill in the fields correctly</p>
+                    </div>
+                    <div class="form_grupo form_grupo_btn_enviar">
+                        <button class="contacto_btn" type="submit">Login</button>
+                        <p class="form_mensaje_exito" id="form_mensaje_exito">
+                            The form has been sent successfully
+                        </p>
+                    </div>
+                </form>
+        </div>
     </section>
 
     <footer>
