@@ -35,6 +35,10 @@
     grid-template-columns: 1fr;
     gap: 10px;
 }
+.form_grupo label{
+    font-weight: bold;
+    color: #fff;
+}
 .form_grupo_input{
     position: relative;
 }
@@ -107,7 +111,7 @@
 .form_mensaje_exito-act{
     display: block;
 }
-@media (max-width:375px){
+@media (max-width:414px){
     .login-img{
         top: 5px;
     }
@@ -116,5 +120,8 @@
     }
     .form_mensaje{
         font-size: 14px;
+    }
+    .login_inside{
+        padding-left: 15px;
     }
 }
