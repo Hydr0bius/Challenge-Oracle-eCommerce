@@ -21,11 +21,6 @@
     grid-template-columns: 1fr;
     gap: 10px;
 }
-.formulario_label{
-    display: block;
-    padding: 5px;
-    cursor: pointer;
-}
 .form_grupo_input{
     position: relative;
 }
